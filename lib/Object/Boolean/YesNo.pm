@@ -3,6 +3,8 @@ package Object::Boolean::YesNo;
 use warnings;
 use strict;
 
+our $VERSION = '0.02';
+
 use base 'Object::Boolean';
 
 __PACKAGE__->strTrue('Yes');
